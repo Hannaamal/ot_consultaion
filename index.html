@@ -1,23 +1,485 @@
 <!DOCTYPE html>
 
 <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OT CONSULTING</title>
+    <link rel="icon" type="image/x-icon" href="/images/Frame.svg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
 
 <body>
 
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
-                    class="d-inline-block align-text-top">
-                Bootstrap
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-smd-flex justify-content-between">
+            <!--logo -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="/images/logo (2) 1.svg" alt="" class="logo me-2">
             </a>
-        </div>
-    </nav>
 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">COMPANY</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            SERVICES
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+           <div class="nav-contact d-none d-lg-flex align-items-center gap-3 me-4">
+        <div>📞 940-440-9530</div>
+        <div><img src="/images/Group 19.png" alt="icon"></div>
+        <div><img src="/images/Group 20.svg" alt="icon"></div>
+        <div><img src="/images/Group 21.svg" alt="icon"></div>
+      </div>
+    </div>
+
+            </div>
+        </nav>
+    </header>
+    <section class="introduction ">
+        <div class="container ">
+            <div class="row g-0">
+                <div class="col-md-6 col-12 d-flex align-items-center text-black">
+                    <div class="p-5 text-center text-md-start ">
+                        <h1 class="fw-bold ">
+                            Healthcare Imaging and
+                            IT Consulting
+                        </h1>
+                        <p>We have expertise in the area of interface specifications between medical devices and
+                            healthcare IT software and systems through participation</p>
+                        <button type="button" class="d-flex align-items-center btn rectangular box responsive-btn">
+                            LEARN MORE
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 d-none d-md-flex align-items-end justify-content-end text-black" style="width: 20px; height: 400px; position: relative;">
+                    <a href="#" class="previous ">&#8249;</a>
+                    <a href="#" class="next ">&#8250;</a>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="sectionone">
+        <div class="container">
+            <div class="row p-5">
+                <div class="col-md-4 d-flex text-black">
+                    <div class="left-line text-md-start">
+                        <h2>Welcome to OT Consulting </h2>
+                    </div>
+                </div>
+
+                <div class="col-md-8 d-flex align-items-center text-black">
+                    <div class="p-4 text-center text-md-start ">
+                        <p>Each of our associates has more than 15 years experience in the medical imaging and
+                            information
+                            field. We can provide advice on regulatory and quality topics including 510(k) filings,
+                            quality
+                            system implementations, federal regulations for medical device manufacturers for both US
+                            (FDA)
+                            and Canada, compliance and implementation of new FDA design controls. In addition, we
+                            provide
+                            consulting on connectivity including DICOM, HL7 and IHE, as well as network security
+                            implementations applicable for healthcare institutions.
+                        </p>
+                        <a class="Contact us" href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+   <section class="services py-0">
+  <div class="container-fluid p-0">
+     <div class="regular">
+                Regulatory FDA Consulting
+            </div>
+    
+
+    <div class="row g-0">
+      <div class="col-md-4">
+        <div class="card border-0 position-relative">
+          <img src="/images/Rectangle 16.png" class="card-img" alt="510(k) Filing">
+          <div class="overlay"></div>
+          <div class="card-img-overlay d-flex flex-column justify-content-end">
+            <h4 class="card-title text-white fw-bold">510(k) Filing</h4>
+            <a href="#" class="details-link">CLICK FOR DETAILS</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 position-relative">
+          <img src="/images/blue over.png" class="card-img" alt="FDA and Quality Audit">
+          <div class="overlay blue-overlay"></div>
+          <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
+            <h5 class="card-title fw-bold">FDA and Quality Audit</h5>
+            <p class="card-text">
+              We have performed several audits of manufacturers who want to assess their FDA or Quality System compliance as part of their risk management process, or who are suddenly faced with an upcoming visit by a regulatory agency, such as the FDA. A gap analysis is generated indicating areas of compliance and potential improvements.
+            </p>
+            <a href="#" class="details-link mt-2">CLICK FOR DETAILS</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card border-0 position-relative">
+          <img src="/images/Rectangle 25.png" class="card-img" alt="Quality System Implementation">
+          <div class="overlay"></div>
+          <div class="card-img-overlay d-flex flex-column justify-content-end">
+            <h4 class="card-title text-white fw-bold">Quality System Implementation</h4>
+            <a href="#" class="details-link">CLICK FOR DETAILS</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <section class="sectionthree ">
+        <div class="container ">
+            <div class="d-flex  ">
+                <img src="/images/Rectangle 19.png" style="max-width: 585px;max-height: 400px;padding-right: 50px;">
+                <div>
+                    <h3>Healthcare Imaging and IT Consulting </h3>
+                    <h5>PACS/RIS Consulting </h5>
+                    <p>Our consultants have extensive background in the PACS/RIS area. We assist institutions with
+                        special
+                        projects that might include topics such as image quality, and/or evaluation of specific PACS
+                        components. In addition, we have a referral network for users that need support with the
+                        generation
+                        of RFP's, project management, selection, and acceptance.</p>
+                    <a class="click" href="#">CLICK FOR DETAILS</a>
+                </div>
+            </div>
+            <div class="subdiv d-flex">
+                <div>
+                    <h5>Connectivity</h5>
+                    <p>Because of the involvement of our consultants with the DICOM, HL7 and IHE standards activities,
+                        we can provide customized connectivity consulting.</p>
+                    <a class="click" href="#">CLICK FOR DETAILS</a>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    IHE
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We are involved with the annual connectathon activity and therefore have experience
+                                    with IHE profiles, especially in the area of radiology and patient care
+                                    coordination. We provide customized consulting in this area.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    DICOM
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    HL7
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="info" type="button" class="d-inline-flex align-items-cente rectangular">
+                        REQUEST INFORMATION
+
+                    </button>
+
+                </div>
+                <div class="image2">
+                    <img src="/images/Rectangle 23.png">
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+     <section class="sectionfive">
+        <div class="container">
+            <div class="heading">
+                Regulatory FDA Consulting
+            </div>
+            <div id="multiItemCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="/images/Rectangle 16.png" class="d-block w-100" alt="...">
+                                <div class="carousel-title">510(k) Filing</div>
+                                <div class="carousel-text">Each medical device in the US, which is classified as a Class
+                                    II, which includes PACS systems, requires the manufacturer to register its site,
+                                    their products and to have a quality system in place meeting according to the
+                                    so-called Quality System Rule (QSR), which used to be called GMP. In addition, they
+                                    are required to file with the FDA a set of documents aka 510(k), to get clearance
+                                    for selling their product. OTech can assist you with the preparation and filing
+                                    process.
+                                </div>
+                                <a class="Click for Details" href="#">CLICK FOR DETAILS</a>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="/images/Rectangle 17.png" class="d-block w-100" alt="...">
+                                <div class="carousel-title">FDA and Quality Audit </div>
+                                <div class="carousel-text">FDA and Quality Audit is a critical process for ensuring that
+                                    medical devices meet the necessary regulatory requirements. OTech can help you
+                                    navigate the complexities of FDA audits and implement effective quality management
+                                    systems.
+                                </div>
+                                <a class="Click for Details" href="#">CLICK FOR DETAILS</a>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="/images/Rectangle 18.png" class="d-block w-100" alt="...">
+                                <div class="carousel-title">Quality System Implementation </div>
+                                <div class="carousel-text">Quality System Implementation involves establishing and
+                                    maintaining a quality management system that complies with regulatory requirements.
+                                    OTech can assist you in developing and implementing these systems to ensure product
+                                    quality and compliance.
+                                </div>
+                                <a class="Click for Details" href="#">CLICK FOR DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="/images/Rectangle 16.png" class="d-block w-100" alt="...">
+                                <div class="carousel-title">Quality System Implementation </div>
+                                <div class="carousel-text">Quality System Implementation involves establishing and
+                                    maintaining a quality management system that complies with regulatory requirements.
+                                    OTech can assist you in developing and implementing these systems to ensure product
+                                    quality and compliance.
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="/images/Rectangle 17.png" class="d-block w-100" alt="...">
+                                <div class="carousel-title">Quality System Implementation </div>
+                                <div class="carousel-text">Quality System Implementation involves establishing and
+                                    maintaining a quality management system that complies with regulatory requirements.
+                                    OTech can assist you in developing and implementing these systems to ensure product
+                                    quality and compliance.
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="/images/Rectangle 18.png" class="d-block w-100" alt="...">
+                                <div class="carousel-title">Quality System Implementation </div>
+                                <div class="carousel-text">Quality System Implementation involves establishing and
+                                    maintaining a quality management system that complies with regulatory requirements.
+                                    OTech can assist you in developing and implementing these systems to ensure product
+                                    quality and compliance.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#multiItemCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#multiItemCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="sectionfour py-5">
+        <div class="container-fluid px-0">
+            <div class="row g-0">
+
+                <div class="col-lg-6 position-relative">
+                    <img src="images/Rectangle 14.png" class="img-fluid w-100 h-100 object-cover"
+                        alt="Quality System Implementation">
+                    <div class="overlay-left position-absolute bottom-0 start-0 text-white p-4 w-100">
+                        <h4 class="fw-semibold mb-1">Quality System Implementation</h4>
+                        <a href="#" class="text-warning text-decoration-none small">CLICK FOR DETAILS</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 position-relative">
+                    <img src="images/Rectangle 24.png" class="img-fluid w-100 h-100 object-cover"
+                        alt="Quality System Implementation">
+                    <div class="overlay-left position-absolute bottom-0 start-0 text-white p-4 w-100">
+                        <h4 class="fw-bold mb-3">Expert Witness Services</h4>
+                        <p class="small mb-4 lh-base">
+                            OTech provides expert witness services to assist in litigation by reviewing cases,
+                            providing expert opinions, or testifying in court to settle disputes in the healthcare
+                            imaging and IT field. OTech has participated in several cases, including:
+                        </p>
+                        <button class="btn btn-warning fw-semibold px-4 py-2 small">REQUEST INFORMATION</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+   
+
+    <section class=" contact py-5">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-md-4 d-flex text-black">
+                    <div class="p-4 text-center text-md-start ">
+                        <h2>Contact Us</h2>
+                        <h5>OTConsulting Inc.</h5>
+                        <p>215 East University Drive, Suite B</p>
+                        <p>Denton, Texas, 76209</p>
+                        <h5>940-440-9530</h5>
+
+                    </div>
+                </div>
+                <div class="col-md-8 d-flex align-items-center text-black">
+
+                    <form class="details">
+                        <div> Thank you for contacting us! We look forward to hearing from you and the opportunity to
+                            assist. Tell us a little bit about your company and/or institution and question and we’ll be
+                            back in touch shortly
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class=" first_name col-md-6">
+                                <label for="firstName" class="form-label"></label>
+                                <input type="text" class="form-control border-0 border-bottom rounded-0 shadow-none"
+                                    placeholder="Name" style="background-color:#EFEFEF ;">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="Phone" class="form-label"></label>
+                                <input type="text" class="form-control border-0 border-bottom" placeholder="Phone"
+                                    style="background-color:#EFEFEF ;">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="where are you located" class="form-label"></label>
+                                <input type="text" class="form-control border-0 border-bottom"
+                                    placeholder="Where are you located" style="background-color:#EFEFEF ;">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="Email you can be reached at" class="form-label"></label>
+                                <input type="text" class="form-control border-0 border-bottom"
+                                    placeholder="Email you can be reached at" style="background-color:#EFEFEF ;">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label"></label>
+                            <textarea class="form-control border-0 border-bottom"
+                                placeholder="What can we help you with?" style="background-color:#EFEFEF ;" id="message"
+                                rows="4"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-warning rectangular px-4 gap-2 text-light">Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="text-white text-center py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <p class="mb-0">&copy; 2024 OTConsulting Inc.</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p>Privacy Policy</p>
+
+                    <p>Terms and Conditions</p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </footer>
 
 
 
 
 </body>
-</head>
+
+</html>
