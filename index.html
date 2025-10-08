@@ -12,6 +12,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
 </head>
 
 
@@ -52,13 +60,13 @@
                     </li>
                 </ul>
             </div>
-           <div class="nav-contact d-none d-lg-flex align-items-center gap-3 me-4">
-        <div>📞 940-440-9530</div>
-        <div><img src="/images/Group 19.png" alt="icon"></div>
-        <div><img src="/images/Group 20.svg" alt="icon"></div>
-        <div><img src="/images/Group 21.svg" alt="icon"></div>
-      </div>
-    </div>
+            <div class="nav-contact d-none d-lg-flex align-items-center gap-3 me-4">
+                <div>📞 940-440-9530</div>
+                <div><img src="/images/Group 19.png" alt="icon"></div>
+                <div><img src="/images/Group 20.svg" alt="icon"></div>
+                <div><img src="/images/Group 21.svg" alt="icon"></div>
+            </div>
+            </div>
 
             </div>
         </nav>
@@ -79,7 +87,8 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-md-6 col-12 d-none d-md-flex align-items-end justify-content-end text-black" style="width: 20px; height: 400px; position: relative;">
+                <div class=" col-md-3 col-lg-6 col-12 d-none d-md-flex align-items-end justify-content-end text-black"
+                    style="width: 300px; height: 400px; position: relative;">
                     <a href="#" class="previous ">&#8249;</a>
                     <a href="#" class="next ">&#8250;</a>
                 </div>
@@ -90,7 +99,7 @@
     <section class="sectionone">
         <div class="container">
             <div class="row p-5">
-                <div class="col-md-4 d-flex text-black">
+                <div class="col-md-4  d-flex text-black">
                     <div class="left-line text-md-start">
                         <h2>Welcome to OT Consulting </h2>
                     </div>
@@ -116,52 +125,55 @@
     </section>
 
 
-   <section class="services py-0">
-  <div class="container-fluid p-0">
-     <div class="regular">
+    <section class="services py-0">
+        <div class="container-fluid py-5">
+            <div class="regular">
                 Regulatory FDA Consulting
             </div>
-    
 
-    <div class="row g-0">
-      <div class="col-md-4">
-        <div class="card border-0 position-relative">
-          <img src="/images/Rectangle 16.png" class="card-img" alt="510(k) Filing">
-          <div class="overlay"></div>
-          <div class="card-img-overlay d-flex flex-column justify-content-end">
-            <h4 class="card-title text-white fw-bold">510(k) Filing</h4>
-            <a href="#" class="details-link">CLICK FOR DETAILS</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card border-0 position-relative">
-          <img src="/images/blue over.png" class="card-img" alt="FDA and Quality Audit">
-          <div class="overlay blue-overlay"></div>
-          <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
-            <h5 class="card-title fw-bold">FDA and Quality Audit</h5>
-            <p class="card-text">
-              We have performed several audits of manufacturers who want to assess their FDA or Quality System compliance as part of their risk management process, or who are suddenly faced with an upcoming visit by a regulatory agency, such as the FDA. A gap analysis is generated indicating areas of compliance and potential improvements.
-            </p>
-            <a href="#" class="details-link mt-2">CLICK FOR DETAILS</a>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-md-4">
-        <div class="card border-0 position-relative">
-          <img src="/images/Rectangle 25.png" class="card-img" alt="Quality System Implementation">
-          <div class="overlay"></div>
-          <div class="card-img-overlay d-flex flex-column justify-content-end">
-            <h4 class="card-title text-white fw-bold">Quality System Implementation</h4>
-            <a href="#" class="details-link">CLICK FOR DETAILS</a>
-          </div>
-        </div>
-      </div>
+            <div class="row g-0">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 position-relative">
+                        <img src="/images/Rectangle 16.png" class="card-img" alt="510(k) Filing">
+                        <div class="overlay"></div>
+                        <div class="card-img-overlay d-flex flex-column justify-content-end">
+                            <h4 class="card-title text-white fw-bold">510(k) Filing</h4>
+                            <a href="#" class="details-link">CLICK FOR DETAILS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 position-relative">
+                        <img src="/images/blue over.png" class="card-img" alt="FDA and Quality Audit">
+                        <div class="overlay blue-overlay"></div>
+                        <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
+                            <h5 class="card-title fw-bold">FDA and Quality Audit</h5>
+                            <p class="card-text">
+                                We have performed several audits of manufacturers who want to assess their FDA or
+                                Quality System compliance as part of their risk management process, or who are suddenly
+                                faced with an upcoming visit by a regulatory agency, such as the FDA. A gap analysis is
+                                generated indicating areas of compliance and potential improvements.
+                            </p>
+                            <a href="#" class="details-link mt-2">CLICK FOR DETAILS</a>
+                        </div>
+                    </div>
+                </div>
 
-    </div>
-  </div>
-</section>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 position-relative">
+                        <img src="/images/Rectangle 25.png" class="card-img" alt="Quality System Implementation">
+                        <div class="overlay"></div>
+                        <div class="card-img-overlay d-flex flex-column justify-content-end">
+                            <h4 class="card-title text-white fw-bold">Quality System Implementation</h4>
+                            <a href="#" class="details-link">CLICK FOR DETAILS</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
     <section class="sectionthree ">
@@ -255,102 +267,108 @@
 
 
 
-
-
-     <section class="sectionfive">
+    <section class="sectionfive">
         <div class="container">
             <div class="heading">
                 Regulatory FDA Consulting
             </div>
-            <div id="multiItemCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="/images/Rectangle 16.png" class="d-block w-100" alt="...">
-                                <div class="carousel-title">510(k) Filing</div>
-                                <div class="carousel-text">Each medical device in the US, which is classified as a Class
-                                    II, which includes PACS systems, requires the manufacturer to register its site,
-                                    their products and to have a quality system in place meeting according to the
-                                    so-called Quality System Rule (QSR), which used to be called GMP. In addition, they
-                                    are required to file with the FDA a set of documents aka 510(k), to get clearance
-                                    for selling their product. OTech can assist you with the preparation and filing
-                                    process.
-                                </div>
-                                <a class="Click for Details" href="#">CLICK FOR DETAILS</a>
-                            </div>
-                            <div class="col-md-4">
-                                <img src="/images/Rectangle 17.png" class="d-block w-100" alt="...">
-                                <div class="carousel-title">FDA and Quality Audit </div>
-                                <div class="carousel-text">FDA and Quality Audit is a critical process for ensuring that
-                                    medical devices meet the necessary regulatory requirements. OTech can help you
-                                    navigate the complexities of FDA audits and implement effective quality management
-                                    systems.
-                                </div>
-                                <a class="Click for Details" href="#">CLICK FOR DETAILS</a>
-                            </div>
-                            <div class="col-md-4">
-                                <img src="/images/Rectangle 18.png" class="d-block w-100" alt="...">
-                                <div class="carousel-title">Quality System Implementation </div>
-                                <div class="carousel-text">Quality System Implementation involves establishing and
-                                    maintaining a quality management system that complies with regulatory requirements.
-                                    OTech can assist you in developing and implementing these systems to ensure product
-                                    quality and compliance.
-                                </div>
-                                <a class="Click for Details" href="#">CLICK FOR DETAILS</a>
-                            </div>
-                        </div>
+            <div class="slider-section">
+                <div class="slick-slider">
+                    <div class="slide-item">
+                        <img src="images/Rectangle 16.png" alt="Slide 1">
+                        <h3 class="slide-title">510(k) Filing</h3>
+                        <p class="slide-text">Each medical device in the US, which is classified as a Class
+                            II, which includes PACS systems, requires the manufacturer to register its site,
+                            their products and to have a quality system in place meeting according to the
+                            so-called Quality System Rule (QSR). </p>
+                        <a class="Click for Details" href="#">CLICK FOR DETAILS</a>
+
                     </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="/images/Rectangle 16.png" class="d-block w-100" alt="...">
-                                <div class="carousel-title">Quality System Implementation </div>
-                                <div class="carousel-text">Quality System Implementation involves establishing and
-                                    maintaining a quality management system that complies with regulatory requirements.
-                                    OTech can assist you in developing and implementing these systems to ensure product
-                                    quality and compliance.
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <img src="/images/Rectangle 17.png" class="d-block w-100" alt="...">
-                                <div class="carousel-title">Quality System Implementation </div>
-                                <div class="carousel-text">Quality System Implementation involves establishing and
-                                    maintaining a quality management system that complies with regulatory requirements.
-                                    OTech can assist you in developing and implementing these systems to ensure product
-                                    quality and compliance.
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <img src="/images/Rectangle 18.png" class="d-block w-100" alt="...">
-                                <div class="carousel-title">Quality System Implementation </div>
-                                <div class="carousel-text">Quality System Implementation involves establishing and
-                                    maintaining a quality management system that complies with regulatory requirements.
-                                    OTech can assist you in developing and implementing these systems to ensure product
-                                    quality and compliance.
-                                </div>
-                            </div>
-                        </div>
+
+                    <div class="slide-item">
+                        <img src="/images/Rectangle 17.png" alt="Slide 2">
+                        <h3 class="slide-title">FDA and Quality Audit</h3>
+                        <p class="slide-text">FDA and Quality Audit is a critical process for ensuring that
+                            medical devices meet the necessary regulatory requirements. OTech can help you
+                            navigate the complexities of FDA audits and implement effective quality management
+                            systems.</p>
+                        <a class="Click for Details" href="#">CLICK FOR DETAILS</a>
                     </div>
+
+                    <div class="slide-item">
+                        <img src="/images/Rectangle 18.png" alt="Slide 3">
+                        <h3 class="slide-title">Quality System Implementation</h3>
+                        <p class="slide-text">Quality System Implementation involves establishing and
+                            maintaining a quality management system that complies with regulatory requirements.
+                            OTech can assist you in developing and implementing these systems to ensure product
+                            quality and compliance.</p>
+                        <a class="Click for Details" href="#">CLICK FOR DETAILS</a>
+                    </div>
+                    <div class="slide-item">
+                        <img src="images/Rectangle 16.png" alt="Slide 1">
+                        <h3 class="slide-title">510(k) Filing</h3>
+                        <p class="slide-text">Each medical device in the US, which is classified as a Class
+                            II, which includes PACS systems, requires the manufacturer to register its site,
+                            their products and to have a quality system in place meeting according to the
+                            so-called Quality System Rule (QSR). </p>
+                        <a class="Click for Details" href="#">CLICK FOR DETAILS</a>
+
+                    </div>
+                    <div class="slide-item">
+                        <img src="/images/Rectangle 17.png" alt="Slide 2">
+                        <h3 class="slide-title">FDA and Quality Audit</h3>
+                        <p class="slide-text">FDA and Quality Audit is a critical process for ensuring that
+                            medical devices meet the necessary regulatory requirements. OTech can help you
+                            navigate the complexities of FDA audits and implement effective quality management
+                            systems.</p>
+                        <a class="Click for Details" href="#">CLICK FOR DETAILS</a>
+                    </div>
+                    <div class="slide-item">
+                        <img src="/images/Rectangle 18.png" alt="Slide 3">
+                        <h3 class="slide-title">Quality System Implementation</h3>
+                        <p class="slide-text">Quality System Implementation involves establishing and
+                            maintaining a quality management system that complies with regulatory requirements.
+                            OTech can assist you in developing and implementing these systems to ensure product
+                            quality and compliance.</p>
+                        <a class="Click for Details" href="#">CLICK FOR DETAILS</a>
+                    </div>
+
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#multiItemCarousel"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#multiItemCarousel"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-
-
-
             </div>
         </div>
     </section>
 
 
+    <script>
+        $('.slick-slider').slick({
+            dots: false,
+            arrows: false,
+            infinite: true,
+            speed: 700,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            fade: false,
+            pauseOnHover: false,
+            adaptiveHeight: true,
+
+             responsive: [
+                {
+                    breakpoint: 992, // tablets
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 600, // mobile
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
 
 
 
@@ -394,7 +412,7 @@
 
 
 
-   
+
 
     <section class=" contact py-5">
         <div class="container">
@@ -465,15 +483,15 @@
                 <div>
                     <p class="mb-0">&copy; 2024 OTConsulting Inc.</p>
                 </div>
-                <div class="d-flex justify-content-center">
-                    <p>Privacy Policy</p>
-
-                    <p>Terms and Conditions</p>
+                <div class=" d-flex justify-content-center py-2 gap-4">
+                    <div>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div>
+                        <p>Terms and Conditions</p>
+                    </div>
                 </div>
-
             </div>
-
-
         </div>
     </footer>
 
