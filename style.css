@@ -399,6 +399,71 @@ a:hover {
     color: #003870;
     font-family: myFont1;
 }
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff !important;
+    background-color: #7888A9 !important;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+
+.accordion-button::after {
+  display: none;
+}
+
+
+.accordion-button::before {
+  content: '+';
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #003870;
+  position: absolute;
+  right: 1.5rem;   
+  transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed)::before {
+  content: '−';
+  color: #ffffff;
+}
+
+
+.accordion-button {
+  position: relative;
+  padding-right: 3rem;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .sectionthree .subdiv a {
     padding-bottom: 0px !important;
 }
@@ -728,8 +793,8 @@ footer {
 
 
   .sectionthree .container {
-    max-width: 100% !important;
-    max-height: 2000px !important;
+    max-width: 1200% !important;
+    max-height: 1083px !important;
     padding: 20px 10px;
     margin: 0 auto;
     align-items: center;
@@ -761,11 +826,10 @@ footer {
 
     }
     .sectionthree img{
-        max-width: 100% !important;
-        max-height: auto !important;
+        max-width: 585px !important;
+        max-height: 400px !important;
         padding-left: 0px !important;
-        padding-right: 0px !important;
-        margin: 0 auto;
+        padding-right: 50px !important;
         align-items: center;
     }
     .sectionthree .accordion-body {
